@@ -160,7 +160,7 @@ function polish_solution(res, c, A, b) {
 // where A must have full row rank.
 //
 // The dual program is
-// max b'w s.t. A'w + s = c, c >= 0
+// max b'w s.t. A'w + s = c, s >= 0
 //
 // If the solver reaches maximum iterations the problem is
 // most likely infeasible but the solver does not detect this.
